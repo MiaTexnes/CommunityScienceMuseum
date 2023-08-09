@@ -1,0 +1,132 @@
+* { font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.headerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+nav,
+#menu-checkbox {
+    display: none;
+    
+    
+}
+#menu-checkbox:checked ~ nav {
+    display: block;
+    
+}
+.hamburger-menu {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    justify-content: left;
+    background: rgba(140,166,169);
+    top: 7rem;
+    width: 100%;  
+    text-align: center;
+}
+
+
+nav a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.index-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 24px;
+}
+.welcome,.slogan{
+    text-align: center;
+    margin: auto;
+}
+.welcome {
+    font-weight: 400;
+    font-size: 40px;
+}
+.slogan {
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+}
+img {
+    max-width: 100%;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardimage {
+    position: relative;
+    border-radius: 40px;
+    flex-basis: 70%;
+    order: 2;
+    
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+th {
+    text-align: right;
+}
+
+
+
+@media (min-width: 600px) {
+    nav {
+     display: block;
+     background: white; 
+     
+    }
+    .hamburger-menu {
+        display: none;
+        
+    }
+    nav a {
+        display: inline;
+    }
+}
+
+@media (max-width: 600px) {
+    nav a {
+     display: block;
+     float: none;
+     position: static;
+     
+    }
+    }
+    @media (max-width:600px) {
+        navbar {
+            display: block;
+            text-align: center; 
+            padding: 70px 0;  
+             
+        }
+    }
