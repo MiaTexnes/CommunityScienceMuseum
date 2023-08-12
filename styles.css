@@ -1,0 +1,196 @@
+* { font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.headerlogoimg {
+ position: relative;     
+}
+nav,
+#menu-checkbox {
+    display: none;
+    
+    
+}
+#menu-checkbox:checked ~ nav {
+    display: block;
+    
+}
+.hamburger-menu {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    justify-content: left;
+    top: 5rem;
+    width: 100%;  
+    text-align: center;
+    left: 0;
+}
+
+
+nav a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(140,166,169);
+}
+
+
+.index-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 24px;
+}
+.welcome,.slogan{
+    text-align: center;
+    margin: auto;
+}
+.welcome {
+    font-weight: 400;
+    font-size: 40px;
+}
+.slogan {
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+}
+img {
+    max-width: 100%;
+}
+.cards {
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    border-color: black;
+    
+    
+}
+.card-medical, .card-vr, .card-kids, .card-dino {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    border-color: black;
+    margin: 3rem; 
+}
+.card-medical {
+    background-image: linear-gradient(rgb(236, 187, 255), white);
+}
+.card-vr {
+    background-image: linear-gradient(rgb(189, 206, 255), white);
+}
+.card-kids {
+    background-image: linear-gradient(rgb(255, 240, 166), white);
+}
+.card-dino {
+    background-image: linear-gradient(rgb(189, 255, 209), white);
+}
+
+.cardimage {
+    position: relative;
+    border-radius: 40px;
+    max-width: 100%;
+    
+    
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    max-width: 100%;
+}
+
+th {
+    text-align: right;
+}
+
+
+
+@media (min-width: 600px) {
+    
+    nav {
+     display: flex;
+     position: static;
+flex-wrap: wrap;
+     gap: 2rem;
+     padding-left: 30px;
+    
+      
+       
+    }
+    .headerlogo {
+        max-width: 100%;
+        position: relative;
+        padding-right: 30px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        max-width: 100%;
+        
+    
+    }
+   
+    .hamburger-menu {
+        display: none;
+        
+    }
+    nav a {
+        font-size: 30px;
+        display: flex;
+        align-items: center; 
+        
+        
+    }
+    .index-photo {
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    nav a {
+     display: block;
+     float: none;
+     position: static;
+     
+    }
+    
+    }
+    @media (max-width:600px) {
+        navbar {
+            display: block;
+            text-align: center; 
+            padding: 70px 0;  
+             
+     
+    }
+    }
+    @media (max-width: 1240px) {
+        nav a {
+            font-size: 20px;
+            gap: 1rem;
+            padding: 1px;
+        }
+    }
