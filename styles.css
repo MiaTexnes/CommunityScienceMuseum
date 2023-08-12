@@ -72,26 +72,38 @@ nav a {
 }
 img {
     max-width: 100%;
+    height: auto;
 }
 .cards {
-    max-width: 100%;
-    justify-content: center;
-    text-align: center;
-    border-radius: 40px;
-    border-color: black;
-    
+    display: flex;
+    flex-wrap: wrap;
     
 }
-.card-medical, .card-vr, .card-kids, .card-dino {
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cardimage {
+    max-width: 100%;
+    border-radius: 40px;
+    border-color: black;
+    padding: 1rem;  
+}
+
+
+
+.card-medical, .card-vr, .card-kids, .card-dino, .card-astronaut {
     
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
     text-align: center;
     border-radius: 40px;
     border-color: black;
-    margin: 3rem; 
+    padding: 1rem;
+    max-height: 472px;  
+    max-width: 994px;
+     
 }
 .card-medical {
     background-image: linear-gradient(rgb(236, 187, 255), white);
@@ -105,24 +117,9 @@ img {
 .card-dino {
     background-image: linear-gradient(rgb(189, 255, 209), white);
 }
-
-.cardimage {
-    position: relative;
-    border-radius: 40px;
-    max-width: 100%;
-    
-    
+.card-astronaut {
+    background-image: linear-gradient(rgb(189, 255, 239), white);
 }
-.text {
-    font-size: 20px;
-    padding-left: 20px;
-    max-width: 100%;
-}
-
-th {
-    text-align: right;
-}
-
 
 
 @media (min-width: 600px) {
