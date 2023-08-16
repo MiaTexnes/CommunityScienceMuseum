@@ -143,14 +143,14 @@ address {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 100px) {
   nav a {
     display: block;
     float: none;
     position: static;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 100px) {
   navbar {
     display: block;
     text-align: center;
