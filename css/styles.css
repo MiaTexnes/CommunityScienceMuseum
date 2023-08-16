@@ -103,7 +103,29 @@ address {
   border-radius: 40px;
   padding: 10px;
 }
- /*Media queries start here*/
+
+@media screen and (min-width: 600px) {
+  .navbar {
+    display: flex;
+    position: static;
+    flex-direction: row;
+  }
+  .navbar a {
+    background-color: white;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
+@media screen and (max-width:600px) {
+  nav a {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+/*Media queries start here
 @media (min-width: 600px) {
   nav {
     display: flex;
@@ -164,3 +186,4 @@ address {
     padding: 1px;
   }
 }
+*/
