@@ -2,165 +2,194 @@
 @import "header.css";
 @import "footer.css";
 
+
+
+
 .index-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding-top: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 24px;
 }
-.welcome,
-.slogan {
-  text-align: center;
-  margin: auto;
+.welcome,.slogan{
+    text-align: center;
+    margin: auto;
 }
 .welcome {
-  font-weight: 400;
-  font-size: 40px;
+    font-weight: 400;
+    font-size: 40px;
 }
 .slogan {
-  font-weight: 100;
-  font-size: 25px;
-  font-style: italic;
-  padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 20px;
 }
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 .cards {
-  align-items: center;
-  max-width: 992px;
-  margin: 0 auto;
+    align-items: center;
+    max-width: 992px;
+    margin: 0 auto;
+    
+    
+    
+    
 }
 
 .cardimage {
-  max-width: 100%;
-  border-radius: 40px;
-  border-color: black;
-  padding: 0.5rem;
+    max-width: 100%;
+    border-radius: 40px;
+    border-color: black;
+    padding: 0.5rem;  
 }
+
+
 
 .card {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border-radius: 40px;
-  border-color: black;
-  padding: 0.5rem;
-  height: 472px;
-  max-width: 994px;
-  margin-bottom: 40px;
-  border-radius: 40px;
-  border: 1px solid black;
-}
-.card-medical {
-  background-image: linear-gradient(rgb(236, 187, 255), white);
-}
-.card-vr {
-  background-image: linear-gradient(rgb(189, 206, 255), white);
-  flex-direction: row-reverse;
-}
-.card-kids {
-  background-image: linear-gradient(rgb(255, 240, 166), white);
-}
-.card-dino {
-  background-image: linear-gradient(rgb(189, 255, 209), white);
-  flex-direction: row-reverse;
-}
-.card-astronaut {
-  background-image: linear-gradient(rgb(189, 255, 239), white);
-  flex-direction: row-reverse;
-}
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-address {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.visitcards {
-  background-color: #e1ffea;
-}
-.visitcards h2 {
-  font-size: 20px;
-}
-.visitcards table {
-  font-size: 15px;
-}
-.visitcards p {
-  font-size: 15px;
-}
-.img-border {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-@media (min-width: 500px) {
-  nav {
-    display: flex;
-    position: static;
-    gap: 2rem;
-    padding-left: 30px;
-  }
-  nav a:hover {
-    text-shadow: 0px 7px 8px #000000;
-  }
-  .headerlogo {
-    max-width: 100%;
-    position: relative;
-  }
-  .headerlogoimg {
-    padding: 1em 0 1em 1em;
-  }
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    max-width: 100%;
-  }
-
-  .hamburger-menu {
-    display: none;
-  }
-  nav a {
-    font-size: 1.8125em;
     display: flex;
     align-items: center;
-    background-color: white;
-  }
-  .index-photo {
-    padding: 0rem 1.5rem 0rem 1.5rem;
-  }
+    text-align: center;
+    border-radius: 40px;
+    border-color: black;
+    padding: 0.5rem;
+    height: 472px;  
+    max-width: 994px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    border: 1px solid black
+    
+    
+    
+     
+}
+.card-medical {
+    background-image: linear-gradient(rgb(236, 187, 255), white);
+}
+.card-vr {
+    background-image: linear-gradient(rgb(189, 206, 255), white);
+    flex-direction: row-reverse;
+}
+.card-kids {
+    background-image: linear-gradient(rgb(255, 240, 166), white);
+}
+.card-dino {
+    background-image: linear-gradient(rgb(189, 255, 209), white);
+    flex-direction: row-reverse;
+
+}
+.card-astronaut {
+    background-image: linear-gradient(rgb(189, 255, 239), white);
+    flex-direction: row-reverse;
+    
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visitcards {
+    background-color: #E1FFEA;
+}
+.visitcards h2 {
+    font-size: 20px;
+}
+.visitcards table {
+    font-size: 15px;
+}
+.visitcards p {
+    font-size: 15px;
+}
+.img-border {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    padding: 10px;
+
 }
 
+
+
+@media (min-width: 600px) {
+    
+    nav {
+     display: flex;
+     position: static;
+     gap: 2rem;
+     padding-left: 30px; 
+    }
+    nav a:hover {
+        text-shadow: 0px 7px 8px #000000;
+    }
+    .headerlogo {
+        max-width: 100%;
+        position: relative;
+    }
+    .headerlogoimg {
+        padding: 1em 0 1em 1em;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        max-width: 100%;
+    }
+   
+    .hamburger-menu {
+        display: none;
+        
+    }
+    nav a {
+        font-size: 1.8125em;
+        display: flex;
+        align-items: center; 
+        background-color: white;
+        
+        
+        
+    }
+    .index-photo {
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+}
+
+
 @media (max-width: 600px) {
-  nav a {
-    display: block;
-    float: none;
-    position: static;
-  }
-}
-@media (max-width: 600px) {
-  navbar {
-    display: block;
-    text-align: center;
-    padding: 70px 0;
-  }
-}
-@media (max-width: 1240px) {
-  nav a {
-    font-size: 20px;
-    gap: 1rem;
-    padding: 1px;
-  }
-}
+    nav a {
+     display: block;
+     float: none;
+     position: static;
+     
+    }
+    
+    }
+    @media (max-width:600px) {
+        navbar {
+            display: block;
+            text-align: center; 
+            padding: 70px 0;  
+             
+     
+    }
+    }
+    @media (max-width: 1240px) {
+        nav a {
+            font-size: 20px;
+            gap: 1rem;
+            padding: 1px;
+        }
+    }
+
+    
