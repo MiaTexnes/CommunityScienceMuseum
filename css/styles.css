@@ -103,7 +103,12 @@ address {
   border-radius: 40px;
   padding: 10px;
 }
-
+@media screen and (max-width:600px) {
+  nav a {
+    display: block;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 600px) {
   .navbar {
     display: flex;
