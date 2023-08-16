@@ -2,130 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="An interactive science museum, where everyone can have fun">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Community science museum - Exhibitions</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="An interactive science museum, where everyone can have fun">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Community science museum - Exhibitions</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <!--header starts here-->
-    <header>
-        <div class="headerlogo">
-        <a href="index.html">
-            <img class="headerlogoimg" src="images/sciencelogo.png" alt="robot with welcomesign logo">
+  <!--header starts here-->
+  <header>
+    <div class="headerlogo">
+      <a href="index.html">
+        <img class="headerlogoimg" src="images/sciencelogo.png" alt="robot with welcome sign logo">
+      </a>
+    </div>
+    <input type="checkbox" id="menu-checkbox">
+    <label for="menu-checkbox" class="hamburger-menu"><i><iconify-icon
+          icon="pajamas:hamburger"></iconify-icon></i></label>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="exhibitions.html" class="active">Exhibitions</a>
+      <a href="visit.html">Visit</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+
+  <h1 class="slogan">Where learning becomes fun</h1>
+
+
+
+  <section class="cards">
+    <div class="card card-medical">
+      <img class="cardimage" src="images/torso.jpg" alt="Medical torso">
+      <div class="text">
+        <h2>The body</h2>
+        <p>The interactive medical exhibition showcases the latest medical technologies and techniques.</p>
+        <a href="medical.html">
+          <p>Learn more</p>
         </a>
+      </div>
     </div>
-        <input type="checkbox" id="menu-checkbox">
-        <label for="menu-checkbox" class="hamburger-menu"><i><iconify-icon
-                    icon="pajamas:hamburger"></iconify-icon></i></label>
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="exhibitions.html" class="active">Exhibitions</a>
-            <a href="visit.html">Visit</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-        </nav>
-    </header>
-
-
-<h1 class="slogan">Where learning becomes fun</h1>
-
-
-   
-    <section class="cards">
-        <div class="card-medical">
-            <img class="cardimage" src="images/torso.jpg" alt="Image of a medical torso">
-            <div class="text">
-            <h2>The body</h2>
-            <p>The interactive medical exhibition showcases the latest medical technologies and techniques.</p>
-            <a href="medical.html">
-                <p>Learn more</p>
-            </a>
-            </div>
-        </div>
-        </div>
-    
-        <div class="card-vr">
-            <img class="cardimage" src="images/vrgirl.jpg" alt="Image of a girl with vr glasses">
-        
-            <div class="text">
-            <h2>Virtual reality</h2>
-            <p>The interactive museum features a virtual reality area where visitors can immerse themselves in a variety of
-                experiences.</p>
-            <a href="vr.html">
-                <p>Learn more</p>
-            </a>
-        </div>
-        </div>
-        </div>
-    
-        
-        
-    
-        <div class="card-dino">
-            <img class="cardimage" src="images/dinosaur.jpg" alt="Image of dinosaur bones">
-        
-            <div class="text">
-            <h2>Dinosaur explore</h2>
-            <p>The interactive dinosaur exhibition at the museum offers visitors the opportunity to step back in time and
-                experience the world of these prehistoric creatures. </p>
-            <a href="dinosaur.html">
-                <p>Learn more</p>
-            </a>
-        </div>
-        </div>
     </div>
-    <div class="card-kids">
-        <img class="cardimage" src="images/reading.jpg" alt="Image of a child reading and dreaming">
-    
-        <div class="text">
+
+    <div class=" card card-vr">
+      <img class="cardimage" src="images/vrgirl.jpg" alt="Girl with vr glasses">
+
+      <div class="text">
+        <h2>Virtual reality</h2>
+        <p>The interactive museum features a virtual reality area where visitors can immerse themselves in a
+          variety of
+          experiences.</p>
+        <a href="vr.html">
+          <p>Learn more</p>
+        </a>
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="card card-dino">
+      <img class="cardimage" src="images/dinosaur.jpg" alt="Dinosaur bones">
+
+      <div class="text">
+        <h2>Dinosaur explore</h2>
+        <p>The interactive dinosaur exhibition at the museum offers visitors the opportunity to step back in
+          time and
+          experience the world of these prehistoric creatures. </p>
+        <a href="exhibitions.html">
+          <p>Learn more</p>
+        </a>
+      </div>
+    </div>
+    </div>
+    <div class="card card-kids">
+      <img class="cardimage" src="images/reading.jpg" alt="Child reading and dreaming">
+
+      <div class="text">
         <h2>Kids corner</h2>
-        <p>In the kids corner both small kids and adults can build their own rockets, program with programming robots
-            and more. </p>
+        <p>In the kids corner both small kids and adults can build their own rockets, program with programming
+          robots
+          and more. </p>
         <a href="kids.html">
-            <p>Learn more</p>
+          <p>Learn more</p>
         </a>
+      </div>
     </div>
     </div>
-    </div>
-    <div class="card-astronaut">
-        <img class="cardimage" src="images/astronaut.jpg" alt="Image of an astronaut">
-    
-        <div class="text">
-        <h2>Space</h2>
-        <p>The interactive dinosaur exhibition at the museum offers visitors the opportunity to step back in time and
-            experience the world of these prehistoric creatures. </p>
-        <a href="dinosaur.html">
-            <p>Learn more</p>
-        </a>
-    </div>
-    </div>
-    </div>
-</section>
-</section>
+    <div class="card card-astronaut">
+      <img class="cardimage" src="images/astronaut.jpg" alt="An astronaut sitting">
 
-<footer class="footer">
-    <div class="social">
-    <a href="https://www.facebook.com/"><iconify-icon icon="bi:facebook"></iconify-icon></a>
-    <a href="https://www.instagram.com/"><iconify-icon icon="bi:instagram"></iconify-icon></a>
-    <a href="https://www.youtube.com/"><iconify-icon icon="bi:youtube"></iconify-icon></a>
+      <div class="text">
+        <h2>Space</h2>
+        <p>The interactive dinosaur exhibition at the museum offers visitors the opportunity to step back in
+          time and
+          experience the world of these prehistoric creatures. </p>
+        <a href="exhibitions.html">
+          <p>Learn more</p>
+        </a>
+      </div>
     </div>
-<div class="copyright">
-<h3>All rights reserved Community Science Center 2023</h3>
-</div>
-</footer>
+    </div>
+  </section>
+  </section>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.facebook.com/"><iconify-icon icon="bi:facebook"></iconify-icon></a>
+      <a href="https://www.instagram.com/"><iconify-icon icon="bi:instagram"></iconify-icon></a>
+      <a href="https://www.youtube.com/"><iconify-icon icon="bi:youtube"></iconify-icon></a>
+    </div>
+    <div class="copyright">
+      <h3>All rights reserved Community Science Center 2023</h3>
+    </div>
+  </footer>
 </body>
 
 </html>
-
-    

@@ -1,0 +1,50 @@
+.headerlogoimg {
+  position: relative;
+}
+nav,
+#menu-checkbox {
+  display: none;
+}
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+.hamburger-menu {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  justify-content: left;
+  top: 5rem;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+nav a {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #8ca6a9;
+  color: black;
+}
+
+nav a:active {
+  text-decoration: underline;
+  color: black;
+}
+.active {
+  text-decoration: underline;
+}
