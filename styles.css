@@ -46,7 +46,6 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    background: rgba(140,166,169);
     color: black;
 }
 nav a:hover {
@@ -55,6 +54,9 @@ nav a:hover {
 nav a:active {
     text-decoration: underline;
     color: black;
+}
+.active {
+    text-decoration: underline;
 }
 
 
