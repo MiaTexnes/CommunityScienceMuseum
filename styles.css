@@ -146,6 +146,27 @@ address {
     flex-direction: column;
     align-items: center;
 }
+.visitcards {
+    background-color: #E1FFEA;
+}
+.visitcards h2 {
+    font-size: 20px;
+}
+.visitcards table {
+    font-size: 15px;
+}
+.visitcards p {
+    font-size: 15px;
+}
+.img-border {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    padding: 10px;
+
+}
 
 footer {
     display: flex;
@@ -157,6 +178,11 @@ footer {
 footer a {
     padding: 0px 6px 0px 6px;
     margin-top: 10px;
+}
+footer h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
 }
 .social {
     display: flex;
