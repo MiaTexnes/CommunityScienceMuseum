@@ -48,3 +48,7 @@ nav a:active {
 .active {
   text-decoration: underline;
 }
+.headerlogoimg {
+  padding: 0.5rem;
+  
+}

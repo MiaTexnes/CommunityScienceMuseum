@@ -30,7 +30,7 @@ img {
 }
 .cards {
   align-items: center;
-  max-width: 992px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -107,6 +107,14 @@ address {
   margin: auto;
   width: 45%;
 }
+.welcomesign {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: 1px dotted black;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -132,6 +140,24 @@ address {
   .hamburger-menu {
     display:none
   }
+}
+@media screen and (max-width:1022px) {
+  .navbar a {
+    font-size: 1.5rem;
+  }
+  
+}
+@media screen and (max-width: 674px){
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .cardimage{
+    max-height: 300px;
+  }
+  
 }
 
 
