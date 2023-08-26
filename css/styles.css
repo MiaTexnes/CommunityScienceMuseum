@@ -1,5 +1,5 @@
-@import "base.css";
 @import "header.css";
+@import "base.css";
 @import "footer.css";
 
 .index-photo {
@@ -99,7 +99,6 @@ address {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
   border-radius: 40px;
   padding: 10px;
 }
@@ -141,36 +140,7 @@ height: 300px;
 
 
 
-@media screen and (min-width: 600px) {
-  .navbar {
-    display: flex;
-    position: static;
-    flex-direction: row;
-    justify-content: right;
-    width: 100%;
-  }
-  .headerlogoimg {
-    padding: 1rem;
-  }
-  .navbar a {
-    background-color: white;
-    justify-content: right;
-    font-size: 1.8rem;
-  }
-    nav a:hover {
-      text-shadow: 10px 10px 10px #ad3213;
-      
-    }
-  .hamburger-menu {
-    display:none
-  }
-}
-@media screen and (max-width:1022px) {
-  .navbar a {
-    font-size: 1.5rem;
-  }
-  
-}
+
 @media screen and (max-width: 674px){
   
   .card {
