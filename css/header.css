@@ -53,28 +53,5 @@ nav a:active {
   padding: 0.5rem;
   
 }
-@media only screen and (min-device-width: 600px) {
-  .navbar {
-    display: flex;
-    position: static;
-    flex-direction: row;
-    justify-content: right;
-    width: 100%;
-  }
-  .headerlogoimg {
-    padding: 1rem;
-  }
-  .navbar a {
-    background-color: white;
-    justify-content: right;
-    font-size: 2rem;
-  }
-    nav a:hover {
-      text-shadow: 10px 10px 10px #ad3213;
-      
-    }
-  .hamburger-menu {
-    display:none
-  }
-}
+
 

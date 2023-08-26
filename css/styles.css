@@ -83,17 +83,53 @@ address {
   flex-direction: column;
   align-items: center;
 }
-.visitcards {
+.green {
   background-color: #e1ffea;
+}
+.visitcards {  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+  gap: 20px 70px;
+  padding-top: 20px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
 }
 .visitcards h2 {
   font-size: 20px;
+  text-align: center;
 }
 .visitcards table {
   font-size: 15px;
+  text-align: left;
 }
 .visitcards p {
   font-size: 15px;
+  margin: 2px 4px 2px 4px;
+  text-align: left;
+}
+.emergency {
+  width: 300px;
+  margin: 10px 0px 10px 0px;
+}
+.emergency h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.emergency table {
+  font-size: 15px;
+  text-align: left;
+}
+.emergency p {
+  font-size: 15px;
+  margin: 2px 4px 2px 4px;
+  text-align: left;
 }
 .img-border {
   display: block;
@@ -114,20 +150,7 @@ address {
   margin-bottom: 0px;
   border: 1px dotted black;
 }
-.visitcards {  display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-rows: 300px 300px 300px;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: space-evenly;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". ."
-    ". ."
-    ". .";
-}
+
 .location,.opening,.admission,.groups,.accessibility,.shop,.emergency {
 border: 1px solid black;
 align-items: center;
@@ -139,10 +162,31 @@ height: 300px;
 }
 
 
+@media only screen and (min-device-width: 600px) {
+  .navbar {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+  }
+  .headerlogoimg {
+    padding: 1rem;
+  }
+  .navbar a {
+    background-color: white;
+    justify-content: right;
+    font-size: 2rem;
+  }
+    nav a:hover {
+      text-shadow: 10px 10px 10px #ad3213; 
+    }
+  .hamburger-menu {
+    display:none
+  }
+}
 
-
-@media screen and (max-width: 674px){
-  
+@media only screen and (max-device-width: 674px) {
   .card {
     display: flex;
     flex-direction: column;
@@ -151,8 +195,28 @@ height: 300px;
   .cardimage{
     max-height: 300px;
   }
-  
 }
+
+@media only screen and (max-device-width: 700px) {
+  .visitcards {
+    display: grid; 
+    grid-template-columns: 300px; 
+    grid-template-rows: 300px 300px 300px 300px 300px 300px; 
+    gap: 20px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."; 
+    justify-content: center; 
+    align-content: space-evenly; 
+    justify-items: center; 
+    align-items: center; 
+  }
+}
+
 
 
 
