@@ -58,6 +58,11 @@ img {
   border-radius: 40px;
   border: 1px solid black;
 }
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
 .card-medical {
   background-image: linear-gradient(rgb(236, 187, 255), white);
 }
@@ -98,7 +103,105 @@ address {
   margin: auto;
   width: 65%;
 }
+.card:hover {
+	-webkit-animation: kenburns-top 2s alternate forwards;
+	        animation: kenburns-top 2s alternate forwards;
+}
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
 
+.slogan {
+	-webkit-animation: wobble-hor-bottom 0.8s both;
+	        animation: wobble-hor-bottom 0.8s both;
+}
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+
+
+ 
 @media (max-width: 767px) {
   .text-box {
   margin: auto;
@@ -120,74 +223,4 @@ address {
     flex-direction: column;
   }
   }
-
-
-
-
-
-
-
-
-
-/*Media queries start here
-@media (min-width: 600px) {
-  nav {
-    display: flex;
-    position: static;
-    gap: 2rem;
-    padding-left: 30px;
-  }
-  nav a:hover {
-    text-shadow: 0px 7px 8px #000000;
-  }
-  .headerlogo {
-    max-width: 100%;
-    position: relative;
-  }
-  .headerlogoimg {
-    padding: 1em 0 1em 1em;
-  }
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    max-width: 100%;
-  }
-
-  .hamburger-menu {
-    display: none;
-  }
-  nav a {
-    font-size: 1.8125em;
-    display: flex;
-    align-items: center;
-    background-color: white;
-  }
-  .index-photo {
-    padding: 0rem 1.5rem 0rem 1.5rem;
-  }
-}
-
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-    float: none;
-    position: static;
-  }
-}
-@media (max-width: 600px) {
-  navbar {
-    display: block;
-    text-align: center;
-    padding: 70px 0;
-  }
-}
-@media (max-width: 1240px) {
-  nav a {
-    font-size: 20px;
-    gap: 1rem;
-    padding: 1px;
-  }
-}
-*/
+ 
