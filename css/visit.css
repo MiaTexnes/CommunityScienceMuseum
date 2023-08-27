@@ -1,0 +1,45 @@
+.welcomesign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 1px dotted black;
+  }
+
+.visit-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1000px;
+    
+    & > div {
+        padding: 1rem;
+        background-color: var(--green);
+    }
+
+    & > div:last-child {
+        background-color: var(--red);
+    }
+}
+
+    
+    
+
+    @media screen and (min-width: 600px) {
+        .visit-cards {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media screen and (min-width: 900px) {
+        .visit-cards {
+            grid-template-columns: 1fr 1fr 1fr;
+
+            & :last-child {
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+        }
+    }

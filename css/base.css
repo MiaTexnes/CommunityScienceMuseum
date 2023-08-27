@@ -2,13 +2,18 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+html,
 body {
+  height: 100%;
+}
+ body {
   font-family: "Montserrat", sans-serif;
   background-repeat: no-repeat;
   margin: 0;
 }
-html, body { height: 100%;}
-body > footer {
+
+footer {
   position: sticky;
   top: 100vh;
 }

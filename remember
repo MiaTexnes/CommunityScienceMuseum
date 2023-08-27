@@ -1,0 +1,90 @@
+.green {
+  background-color: #e1ffea;
+}
+.visit-cards {  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+  gap: 20px 70px;
+  padding-top: 20px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+}
+.visit-cards h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.visit-cards table {
+  font-size: 15px;
+  text-align: left;
+}
+.visit-cards p {
+  font-size: 15px;
+  margin: 2px 4px 2px 4px;
+  text-align: left;
+}
+.emergency {
+  width: 300px;
+  margin: 10px 0px 10px 0px;
+}
+.emergency h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.emergency table {
+  font-size: 15px;
+  text-align: left;
+}
+.emergency p {
+  font-size: 15px;
+  margin: 2px 4px 2px 4px;
+  text-align: left;
+}
+.img-border {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 10px;
+}
+.text-box {
+  margin: auto;
+  width: 45%;
+}
+
+
+.location,.opening,.admission,.groups,.accessibility,.shop,.emergency {
+border: 1px solid black;
+align-items: center;
+height: 300px;
+}
+.emergency {
+  margin: auto;
+  align-self: center;
+}
+
+@media only screen and (max-device-width: 700px) {
+    .visitcards {
+      display: grid; 
+      grid-template-columns: 300px; 
+      grid-template-rows: 300px 300px 300px 300px 300px 300px; 
+      gap: 20px 0px; 
+      grid-template-areas: 
+        "."
+        "."
+        "."
+        "."
+        "."
+        "."; 
+      justify-content: center; 
+      align-content: space-evenly; 
+      justify-items: center; 
+      align-items: center; 
+    }
+  }
