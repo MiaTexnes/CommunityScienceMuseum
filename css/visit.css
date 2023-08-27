@@ -23,6 +23,7 @@
 
 .visit-cards > div:last-child {
 	background-color: var(--red);
+    align-self: center;
 }
 
 @media screen and (min-width: 600px) {

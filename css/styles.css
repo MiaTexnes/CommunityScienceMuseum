@@ -1,6 +1,7 @@
 @import "variables.css";
 @import "base.css";
 @import "header.css";
+@import "testing.css";
 @import "footer.css";
 @import "visit.css";
 
@@ -86,8 +87,39 @@ address {
   flex-direction: column;
   align-items: center;
 }
+.img-border {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+}
+.text-box {
+  margin: auto;
+  width: 65%;
+}
 
-
+@media (max-width: 767px) {
+  .text-box {
+  margin: auto;
+  width: 80%;
+  }
+  .slogan {
+    font-size: 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  .cards {
+    display:flex ;
+    flex-direction: column;
+  }
+  }
 
 
 

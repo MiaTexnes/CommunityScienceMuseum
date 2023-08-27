@@ -53,6 +53,31 @@ header {
     display: block;
 }
 
+.headerlogo{
+    -webkit-animation:bounce-in 2s ease 0s 1 normal;
+-moz-animation:bounce-in 2s ease 0s 1 normal;
+-ms-animation:bounce-in 2s ease 0s 1 normal;
+animation:bounce-in 2s ease 0s 1 normal;
+}
+
+@-webkit-keyframes bounce-in {
+0%{ opacity: 0; -webkit-transform: scale(.3); transform: scale(.3); }
+50%{ opacity: 1; -webkit-transform: scale(1.0); transform: scale(1.0); }
+70%{ -webkit-transform: scale(0.9); transform: scale(0.9); }
+100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+@keyframes bounce-in {
+0%{ opacity: 0; transform: scale(.3); }
+50%{ opacity: 1; transform: scale(1.0); }
+70%{ transform: scale(0.9); }
+100%{ transform: scale(1); }
+}
+  
+
+
+
+
 @media screen and (min-width: 700px) {
     .navbar {
         display: flex;
@@ -77,9 +102,14 @@ header {
     
 }
 
+
 @media only screen and (min-width: 800px) {
     .navbar a {
         font-size: 1.6rem;
     }
     
 }
+
+
+  
+  

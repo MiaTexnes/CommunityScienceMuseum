@@ -46,17 +46,7 @@
   margin: 2px 4px 2px 4px;
   text-align: left;
 }
-.img-border {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 40px;
-  padding: 10px;
-}
-.text-box {
-  margin: auto;
-  width: 45%;
-}
+
 
 
 .location,.opening,.admission,.groups,.accessibility,.shop,.emergency {
