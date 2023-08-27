@@ -21,14 +21,11 @@
 <body>
   <!--header starts here-->
   <header>
-    <div class="headerlogo">
-      <a href="index.html">
-        <img class="headerlogoimg" src="images/sciencelogo.png" alt="robot with welcome sign logo">
-      </a>
-    </div>
-    <input type="checkbox" id="menu-checkbox">
-    <label for="menu-checkbox" class="hamburger-menu"><i><iconify-icon
-          icon="pajamas:hamburger"></iconify-icon></i></label>
+    <a class="headerlogo" href="index.html">
+      <img class="headerlogoimg" src="images/sciencelogo.png" alt="robot with welcome sign logo" />
+    </a>
+    <i id="open" class="hamburger-menu"> <iconify-icon icon="pajamas:hamburger"></iconify-icon> </i>
+    <i id="close" class="hamburger-menu-close"> <iconify-icon icon="pajamas:close"></iconify-icon> </i>
     <nav class="navbar">
       <a href="index.html">Home</a>
       <a href="exhibitions.html">Exhibitions</a>
@@ -69,6 +66,7 @@
       <h3>All rights reserved Community Science Center 2023</h3>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
