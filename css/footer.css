@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #022179;
+  background-color: var(--footerblue);
 }
 footer a {
   padding: 0px 6px 0px 6px;

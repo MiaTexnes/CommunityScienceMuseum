@@ -1,44 +1,69 @@
 .welcomesign {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    border: 1px dotted black;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
-  .visit-cards {
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: 1fr;
-	margin: 0 auto;
-	padding: 2rem;
-	max-width: 1000px;
+.visit-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1000px;
+}
+.visit-cards h2 {
+  text-align: center;
 }
 
 .visit-cards > div {
-	padding: 1rem;
-	background-color: var(--green);
+  padding: 1rem;
+  background-color: var(--green);
 }
 
 .visit-cards > div:last-child {
-	background-color: var(--red);
-    align-self: center;
+  background-color: var(--red);
+  align-self: center;
+}
+td {
+  padding-left: 30px;
+}
+th {
+  text-align: left;
+}
+.location:hover,
+.opening:hover,
+.admission:hover,
+.groups:hover,
+.accessibility:hover,
+.shop:hover,
+.accessibility:hover,
+.emergency:hover {
+  -webkit-box-shadow: 0px 0px 10px 5px var(--grey);
+  -moz-box-shadow: 0px 0px 10px 5px var(--grey);
+  box-shadow: 0px 0px 10px 5px var(--grey);
 }
 
 @media screen and (min-width: 600px) {
-	.visit-cards {
-		grid-template-columns: 1fr 1fr;
-	}
+  .visit-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .visit-cards > div:last-child {
+    grid-column: 1 / span 2;
+    justify-self: center;
+  }
 }
 
 @media screen and (min-width: 900px) {
-	.visit-cards {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  .visit-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-	.visit-cards:last-child {
-		grid-column-start: 2;
-		grid-column-end: 3;
-	}
+  .visit-cards > div:last-child {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
 }

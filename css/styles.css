@@ -1,10 +1,9 @@
 @import "variables.css";
 @import "base.css";
 @import "header.css";
-@import "testing.css";
 @import "footer.css";
 @import "visit.css";
-
+@import "cards.css";
 
 .index-photo {
   display: block;
@@ -13,85 +12,43 @@
   width: 76%;
   padding-top: 24px;
 }
+
 .welcome,
 .slogan {
   text-align: center;
   margin: auto;
 }
+
 .welcome {
   font-weight: 400;
   font-size: 40px;
 }
+
 .slogan {
   font-weight: 100;
   font-size: 25px;
   font-style: italic;
   padding-bottom: 20px;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
-.cards {
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
-.cardimage {
-  max-width: 100%;
-  border-radius: 40px;
-  border-color: black;
-  padding: 0.5rem;
-}
-
-.card {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border-radius: 40px;
-  border-color: black;
-  padding: 0.5rem;
-  height: 472px;
-  max-width: 994px;
-  margin-bottom: 40px;
-  border-radius: 40px;
-  border: 1px solid black;
-}
-
-.card a {
-  text-decoration: none;
-  color: black;
-}
-.card-medical {
-  background-image: linear-gradient(rgb(236, 187, 255), white);
-}
-.card-vr {
-  background-image: linear-gradient(rgb(189, 206, 255), white);
-  flex-direction: row-reverse;
-}
-.card-kids {
-  background-image: linear-gradient(rgb(255, 240, 166), white);
-}
-.card-dino {
-  background-image: linear-gradient(rgb(189, 255, 209), white);
-  flex-direction: row-reverse;
-}
-.card-astronaut {
-  background-image: linear-gradient(rgb(189, 255, 239), white);
-  flex-direction: row-reverse;
-}
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 address {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .img-border {
   display: block;
   margin-left: auto;
@@ -99,128 +56,59 @@ address {
   border-radius: 40px;
   padding: 10px 20px 10px 20px;
 }
+
 .text-box {
   margin: auto;
   width: 65%;
 }
-.card:hover {
-	-webkit-animation: kenburns-top 2s alternate forwards;
-	        animation: kenburns-top 2s alternate forwards;
-}
-@-webkit-keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
-}
-@keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
-}
 
 .slogan {
-	-webkit-animation: wobble-hor-bottom 0.8s both;
-	        animation: wobble-hor-bottom 0.8s both;
+  -webkit-animation: wobble-hor-bottom 0.8s both;
+  animation: wobble-hor-bottom 0.8s both;
 }
+
 @-webkit-keyframes wobble-hor-bottom {
   0%,
   100% {
     -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
+
   15% {
     -webkit-transform: translateX(-30px) rotate(-6deg);
-            transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
   }
+
   30% {
     -webkit-transform: translateX(15px) rotate(6deg);
-            transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
   }
+
   45% {
     -webkit-transform: translateX(-15px) rotate(-3.6deg);
-            transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
   }
+
   60% {
     -webkit-transform: translateX(9px) rotate(2.4deg);
-            transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
   }
+
   75% {
     -webkit-transform: translateX(-6px) rotate(-1.2deg);
-            transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-@keyframes wobble-hor-bottom {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-            transform: translateX(-30px) rotate(-6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-            transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-            transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-            transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-            transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
   }
 }
 
-
-
- 
 @media (max-width: 767px) {
   .text-box {
-  margin: auto;
-  width: 80%;
+    margin: auto;
+    width: 80%;
   }
+
   .slogan {
     font-size: 20px;
   }
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 80%;
-    align-items: center;
-    text-align: center;
-  }
-  .cards {
-    display:flex ;
-    flex-direction: column;
-  }
-  }
- 
+}
