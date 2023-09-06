@@ -13,11 +13,12 @@ header {
   left: 0;
   right: 0;
   display: none;
+  z-index: 1;
 }
 
 .navbar a {
   display: block;
-  padding: 25px 25px;
+  padding: 25px 15px;
   text-decoration: none;
   text-align: center;
   background-color: #8ca6a9;
@@ -103,7 +104,7 @@ header {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 760px) {
   .navbar {
     display: flex;
     position: static;
@@ -117,7 +118,7 @@ header {
     background-color: white;
     justify-content: right;
     font-weight: 550;
-  
+    font-size: 1.2rem;
   }
   .navbar a.active {
     text-shadow: 0px 8px 8px var(--shadow);
@@ -138,8 +139,9 @@ header {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .navbar a {
     font-size: 1.6rem;
+    padding: 25px 25px;
   }
 }
