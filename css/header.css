@@ -13,7 +13,6 @@ header {
   left: 0;
   right: 0;
   display: none;
-  opacity: 95%;
 }
 
 .navbar a {
@@ -23,7 +22,7 @@ header {
   text-align: center;
   background-color: #8ca6a9;
   color: black;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .navbar a.active {
@@ -117,6 +116,8 @@ header {
   .navbar a {
     background-color: white;
     justify-content: right;
+    font-weight: 550;
+  
   }
   .navbar a.active {
     text-shadow: 0px 8px 8px var(--shadow);

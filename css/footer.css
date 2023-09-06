@@ -6,16 +6,18 @@ footer {
   background-color: var(--footerblue);
 }
 footer a {
-  padding: 0px 6px 0px 6px;
+  padding: 0px 25px 0px 25px;
   margin-top: 10px;
 }
 footer h3 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
   color: white;
+  text-align: center;
 }
 .social {
   display: flex;
+  justify-content: space-evenly;
 }
 .social a {
   color: white;
@@ -24,4 +26,19 @@ footer h3 {
   display: flex;
   justify-content: center;
   font-weight: lighter;
+}
+.icon {
+  font-size: 35px;
+}
+
+@media screen and (min-width: 700px) {
+  .footer h3 {
+    font-size: 20px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .icon:hover {
+    font-size: 32px;
+  }
 }
