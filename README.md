@@ -1,12 +1,13 @@
 # Semester project 1
 Made by Mia Parken Texnes
+(https://sciencemuseummia.netlify.app/)
 ![Alt text](overall-view.png)
 
 
 First year project to create a interactive Community Science Museum website using what we have learned so far.
 I wanted the site to be clean, fun and appealing to a big and eager to learn audience
 
-[Site](https://sciencemuseummia.netlify.app/)
+
 
 ## The site architecture for my site became the following:
 1.	Home – Welcome museum image, and cards with some of the exhibitions
