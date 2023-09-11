@@ -1,5 +1,6 @@
 # Semester project 1
 Made by Mia Parken Texnes
+![Alt text](overall-view.png)
 
 #The assignment was to create a functional web site with the following requirements:
 1.	The site must have a design that appeals to the target audience.
