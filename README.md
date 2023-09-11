@@ -2,7 +2,27 @@
 Made by Mia Parken Texnes
 ![Alt text](overall-view.png)
 
-#The assignment was to create a functional web site with the following requirements:
+
+# First year project to create a interactive Community Science Museum website using what we have learned so far.
+# I wanted the site to be clean, fun and appealing to a big and eager to learn audience
+
+## The site architecture for my site became the following:
+1.	Home – Welcome museum image, and cards with some of the exhibitions
+2.	Exhibitions – Showing all the current exhibitions in the museum
+3.	About – Explaining page about why and how we want our museum to be
+4.	Visit – A page explaining all the practical information of the museum
+5.	Contact – How to get in touch with us and see us
+6.	Medical – A presentation of our exhibit about the body
+7.	Vr – A presentation of our exciting VR area
+8.	Kids – A presentation of our Kids corner exhibition
+
+## The site was built with:
+- [HTML]
+- [CSS]
+- [Figma]
+- [Balsamique]
+
+## The assignment was to create a functional web site with the following requirements:
 1.	The site must have a design that appeals to the target audience.
 2.	The site must have at least 4-6 pages.
 3.	Compositional principles, typography, and colour schemes must be considered.
@@ -14,14 +34,5 @@ Made by Mia Parken Texnes
 9.	The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).
 
 
-#The site architecture for my site became the following:
-1.	Home – Welcome museum image, and cards with some of the exhibitions
-2.	Exhibitions – Showing all the current exhibitions in the museum
-3.	About – Explaining page about why and how we want our museum to be
-4.	Visit – A page explaining all the practical information of the museum
-5.	Contact – How to get in touch with us and see us
-6.	Medical – A presentation of our exhibit about the body
-7.	Vr – A presentation of our exciting VR area
-8.	Kids – A presentation of our Kids corner exhibition
 
 
