@@ -14,6 +14,9 @@
   padding: 2rem;
   max-width: 1000px;
 }
+.visit-cards a {
+color: black;
+}
 
 .visit-cards h2 {
   text-align: center;
