@@ -9,7 +9,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 76%;
+  width: 100%;
   padding-top: 24px;
 }
 
@@ -66,20 +66,20 @@ address {
   font-size: 1.1rem;
 }
 .text-box-header {
-font-size: 3em;}
+  font-size: 3em;
+}
 
 .slogan {
   -webkit-animation: wobble-hor-bottom 0.8s both;
   animation: wobble-hor-bottom 0.8s both;
 }
 .top {
-text-decoration: none;
+  text-decoration: none;
   padding: 10px;
 
   color: #fff;
   background: var(--footerblue);
   border-radius: 100px;
- 
 }
 .to-top {
   display: flex;
@@ -131,5 +131,9 @@ text-decoration: none;
   .slogan {
     font-size: 20px;
   }
-  
+}
+@media (min-width: 767px) {
+ .index-photo {
+  width: 85%;
+  }
 }
