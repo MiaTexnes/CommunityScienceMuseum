@@ -3,6 +3,9 @@ Made by Mia Parken Texnes
 (https://sciencemuseummia.netlify.app/)
 ![Alt text](images/overall-view.png)
 
+<p align="center">
+  <img width="460" height="300" src="/images/overall-view.png">
+</p>
 
 First year project to create a interactive Community Science Museum website using what we have learned so far.
 I wanted the site to be clean, fun and appealing to a big and eager to learn audience
