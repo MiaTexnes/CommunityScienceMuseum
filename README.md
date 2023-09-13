@@ -1,7 +1,7 @@
 # Semester project 1
-Made by Mia Parken Texnes
+<p align="center" Made by Mia Parken Texnes
 (https://sciencemuseummia.netlify.app/)
-![Alt text](images/overall-view.png)
+</p>
 
 <p align="center">
   <img width="460" height="300" src="/images/overall-view.png">
