@@ -1,13 +1,1 @@
 
-  "editor.formatOnSaveMode": "file",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.codeActionsOnSave": {},
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.language.brackets": [],
-  "editor.wordWrap": "on",
-  "files.defaultLanguage": ""
-
