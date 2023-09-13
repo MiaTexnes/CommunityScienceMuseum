@@ -1,4 +1,4 @@
-{
+
   "editor.formatOnSaveMode": "file",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -10,4 +10,4 @@
   "editor.language.brackets": [],
   "editor.wordWrap": "on",
   "files.defaultLanguage": ""
-}
+
