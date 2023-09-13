@@ -4,7 +4,7 @@ Made by Mia Parken Texnes
 
 
 <p align="center">
-  <img width="100%" height="100%" src="/images/overall-view.png">
+  <img width="500" height="100%" src="/images/overall-view.png">
 </p>
 
 First year project to create a interactive Community Science Museum website using what we have learned so far.
