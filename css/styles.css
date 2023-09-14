@@ -26,7 +26,6 @@
 }
 
 .slogan {
-  font-weight: 100;
   font-size: 25px;
   font-style: italic;
   font-weight: 300;
@@ -73,7 +72,6 @@ address {
 }
 
 .slogan {
-  -webkit-animation: wobble-hor-bottom 0.8s both;
   animation: wobble-hor-bottom 0.8s both;
 }
 .top {
