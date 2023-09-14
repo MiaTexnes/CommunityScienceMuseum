@@ -23,14 +23,16 @@ header {
   text-align: center;
   background-color: #3fa0b1;
   color: black;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .navbar a.active {
   text-decoration: underline;
-  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   -ms-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
 }
 
 .hamburger-menu {
@@ -109,25 +111,27 @@ header {
     display: flex;
     position: static;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;
     width: 100%;
     margin-right: 50px;
   }
 
   .navbar a {
     background-color: white;
-    justify-content: right;
+    justify-content: flex-end;
     font-weight: 550;
     font-size: 1.2rem;
   }
   .navbar a.active {
-    text-shadow: 0px 8px 8px var(--shadow);
+    text-shadow: 0 8px 8px var(--shadow);
   }
   .navbar a:hover {
-    text-shadow: 0px 10px 10px var(--shadow);
-    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
-    -ms-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    text-shadow: 0 10px 10px var(--shadow);
     -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    -ms-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    -o-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    -moz-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   }
 
   .headerlogoimg {
