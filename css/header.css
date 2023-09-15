@@ -115,7 +115,6 @@ header {
     width: 100%;
     margin-right: 50px;
   }
-
   .navbar a {
     background-color: white;
     justify-content: flex-end;
@@ -133,11 +132,9 @@ header {
     -moz-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
     transform: matrix(1.1, 0, 0, 1.1, 0, 0);
   }
-
   .headerlogoimg {
     padding: 1rem;
   }
-
   .hamburger-menu {
     display: none;
   }

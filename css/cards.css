@@ -17,7 +17,7 @@
   text-align: center;
   border-color: black;
   padding: 0.5rem;
-  height: 472px;
+  height: 450px;
   max-width: 994px;
   margin-bottom: 40px;
   border-radius: 40px;
@@ -27,6 +27,7 @@
 .card a {
   color: black;
 }
+
 .card-medical .card-vr .card-vr .card-kids .card-dino .card-astronaut img {
   max-width: 60%;
 }
@@ -53,16 +54,19 @@
   background-image: linear-gradient(rgb(189, 255, 239), white);
   flex-direction: row-reverse;
 }
+
 .learn-more {
   font-weight: bold;
   font-size: 1.3em;
   text-decoration: underline;
 }
+
 @media (max-width: 1275px) {
   .cards {
     max-width: 800px;
   }
 }
+
 @media (max-width: 1030px) {
   .cards {
     max-width: 700px;
@@ -79,57 +83,26 @@
     text-align: center;
     max-width: 650px;
   }
-
   .cards {
     display: flex;
     flex-direction: column;
   }
 }
+
 @media (min-width: 767px) {
   .learn-more {
     text-decoration: none;
   }
   .card {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    transform: 1s;
   }
   .learn-more:hover {
     text-decoration: underline;
   }
   .card:hover {
-    -moz-animation: kenburns-top 2s alternate forwards;
-    -webkit-animation: kenburns-top 2s alternate forwards;
-    animation: kenburns-top 2s alternate forwards;
-  }
-}
-
-@-webkit-keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-    transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-    transform-origin: 50% 16%;
-  }
-
-  100% {
-    -webkit-transform: scale(0.7) translateY(-15px);
-    transform: scale(1) translateY(-15px);
-    -webkit-transform-origin: top;
-    transform-origin: top;
-  }
-}
-
-@keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(0.7) translateY(0);
-    transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-    transform-origin: 50% 16%;
-  }
-
-  100% {
-    -webkit-transform: scale(0.7) translateY(-15px);
-    transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-    transform-origin: top;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }

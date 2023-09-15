@@ -1,7 +1,8 @@
 :root {
-    --green: #cbf9d9;
-    --red: #fbd2d2;
-    --shadow: #35cdce;
-    --footerblue: #022179;
-    --grey: #79757565;
+  --green: #cbf9d9;
+  --red: #fbd2d2;
+  --shadow: #35cdce;
+  --footerblue: #022179;
+  --grey: #79757565;
+  --link-blue: rgb(40, 40, 192);
 }

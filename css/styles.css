@@ -10,9 +10,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding: 20px 10px;
   object-fit: cover;
-  max-height: 800px;
+  max-height: 700px;
 }
 
 .welcome,
@@ -30,7 +29,7 @@
   font-size: 25px;
   font-style: italic;
   font-weight: 300;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 img {
@@ -43,6 +42,10 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contact a {
+  color: var(--link-blue);
 }
 
 address {
@@ -63,10 +66,12 @@ address {
   margin: auto;
   width: 65%;
 }
+
 .text-center {
   text-align: left;
   font-size: 1.1rem;
 }
+
 .text-box-header {
   font-size: 3em;
 }
@@ -74,6 +79,7 @@ address {
 .slogan {
   animation: wobble-hor-bottom 0.8s both;
 }
+
 .top {
   text-decoration: none;
   padding: 10px;
@@ -82,6 +88,7 @@ address {
   background: var(--footerblue);
   border-radius: 100px;
 }
+
 .to-top {
   display: flex;
   justify-content: center;
@@ -128,8 +135,20 @@ address {
     margin: auto;
     width: 80%;
   }
+  .index-photo {
+    display: none;
+  }
 
   .slogan {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 767px) {
+  .index-photo {
+    padding: 20px 30px 10px 30px;
+  }
+  .index-photo-b {
+    display: none;
   }
 }

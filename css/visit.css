@@ -16,7 +16,10 @@
 }
 
 .visit-cards a {
-  color: black;
+  color: var(--link-blue);
+}
+.visit-cards a:hover {
+  font-weight: bolder;
 }
 
 .visit-cards h2 {
@@ -41,18 +44,6 @@ th {
   text-align: left;
 }
 
-.location:hover,
-.opening:hover,
-.admission:hover,
-.groups:hover,
-.accessibility:hover,
-.shop:hover,
-.emergency:hover {
-  -webkit-box-shadow: 0 0 10px 5px var(--grey);
-  -moz-box-shadow: 0 0 10px 5px var(--grey);
-  box-shadow: 0 0 10px 5px var(--grey);
-}
-
 .icons {
   display: flex;
   justify-content: center;
@@ -69,7 +60,7 @@ th {
   flex-direction: column;
   margin-top: 50px;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 600px) {

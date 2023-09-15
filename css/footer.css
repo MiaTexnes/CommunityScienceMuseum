@@ -15,18 +15,22 @@ footer h3 {
   color: white;
   text-align: center;
 }
+
 .social {
   display: flex;
   justify-content: space-evenly;
 }
+
 .social a {
   color: white;
 }
+
 .copyright {
   display: flex;
   justify-content: center;
   font-weight: lighter;
 }
+
 .icon {
   font-size: 35px;
 }
