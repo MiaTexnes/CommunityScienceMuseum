@@ -12,6 +12,7 @@
   width: 100%;
   object-fit: cover;
   max-height: 700px;
+  padding: 20px 30px 10px 30px;
 }
 
 .welcome,
@@ -21,7 +22,7 @@
 }
 
 .welcome {
-  font-weight: 400;
+  font-weight: 450;
   font-size: 40px;
 }
 
@@ -30,6 +31,7 @@
   font-style: italic;
   font-weight: 300;
   padding-bottom: 25px;
+  animation: wobble-hor-bottom 0.8s both;
 }
 
 img {
@@ -70,14 +72,13 @@ img {
   font-size: 3em;
 }
 
-.slogan {
-  animation: wobble-hor-bottom 0.8s both;
+.text h2 {
+  font-size: 2em;
 }
 
 .top {
   text-decoration: none;
   padding: 10px;
-
   color: #fff;
   background: var(--footerblue);
   border-radius: 100px;
@@ -139,9 +140,6 @@ img {
 }
 
 @media (min-width: 767px) {
-  .index-photo {
-    padding: 20px 30px 10px 30px;
-  }
   .index-photo-b {
     display: none;
   }

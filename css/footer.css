@@ -4,6 +4,8 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: var(--footerblue);
+  position: sticky;
+  top: 100vh;
 }
 footer a {
   padding: 0 25px 0px 25px;
