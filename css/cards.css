@@ -7,7 +7,6 @@
 .cardimage {
   max-width: 100%;
   border-radius: 40px;
-  border-color: black;
   padding: 0.5rem;
 }
 
@@ -15,21 +14,18 @@
   display: flex;
   align-items: center;
   text-align: center;
-  border-color: black;
   padding: 0.5rem;
   height: 450px;
   max-width: 994px;
   margin-bottom: 40px;
   border-radius: 40px;
-  border: 1px solid black;
+  -webkit-box-shadow: 7px 8px 24px -5px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 7px 8px 24px -5px rgba(66, 68, 90, 1);
+  box-shadow: 7px 8px 24px -5px rgba(66, 68, 90, 1);
 }
 
 .card a {
   color: black;
-}
-
-.card-medical .card-vr .card-vr .card-kids .card-dino .card-astronaut img {
-  max-width: 60%;
 }
 
 .card-medical {
@@ -103,6 +99,8 @@
   .card:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
   }
 }

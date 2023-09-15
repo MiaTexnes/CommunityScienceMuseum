@@ -6,7 +6,7 @@ footer {
   background-color: var(--footerblue);
 }
 footer a {
-  padding: 0px 25px 0px 25px;
+  padding: 0 25px 0px 25px;
   margin-top: 10px;
 }
 footer h3 {
