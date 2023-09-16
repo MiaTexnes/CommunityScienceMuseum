@@ -15,7 +15,7 @@
   align-items: center;
   text-align: center;
   padding: 0.5rem;
-  height: 470px;
+  height: 450px;
   max-width: 994px;
   margin-bottom: 40px;
   border-radius: 40px;
@@ -74,7 +74,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 630px;
+    height: 650px;
     align-items: center;
     text-align: center;
     max-width: 650px;
