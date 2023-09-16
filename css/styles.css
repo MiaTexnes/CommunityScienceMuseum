@@ -44,15 +44,20 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.contact a {
+  color: var(--link-blue);
+}
+
+.contact a:hover {
+font-weight: bold;
 }
 
 iframe {
   padding-top: 22px;
   max-width: 100%;
-}
-
-.contact a {
-  color: var(--link-blue);
 }
 
 .img-border {
