@@ -46,6 +46,11 @@ img {
   align-items: center;
 }
 
+iframe {
+  padding-top: 22px;
+  max-width: 100%;
+}
+
 .contact a {
   color: var(--link-blue);
 }
