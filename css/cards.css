@@ -89,10 +89,6 @@
   .learn-more {
     text-decoration: none;
   }
-  .card {
-    margin-bottom: 50px;
-    transform: 1s;
-  }
   .learn-more:hover {
     text-decoration: underline;
   }
