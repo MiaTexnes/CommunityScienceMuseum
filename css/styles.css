@@ -144,9 +144,13 @@ iframe {
   .index-photo {
     display: none;
   }
-
   .slogan {
     font-size: 20px;
+  }
+  .kid-left-bot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
