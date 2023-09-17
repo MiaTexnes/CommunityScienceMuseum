@@ -25,8 +25,8 @@ I wanted the site to be clean, fun and appealing to a big and eager to learn aud
 
 - [HTML]
 - [CSS]
+- [JS]
 - [Figma]
-- [Balsamique]
 
 ## The assignment was to create a functional web site with the following requirements:
 
