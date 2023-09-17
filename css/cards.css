@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.cardimage {
+.card img {
   max-width: 100%;
   border-radius: 40px;
   padding: 0.5rem;
@@ -26,6 +26,10 @@
 
 .card a {
   color: black;
+}
+
+.cards h2 {
+  font-size: 2em;
 }
 
 .card-medical {

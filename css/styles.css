@@ -82,8 +82,9 @@ iframe {
   font-size: 3em;
 }
 
-.text h2 {
-  font-size: 2em;
+.kid-left-bot {
+  border-radius: 250px;
+  max-height: 350px;
 }
 
 .top {
