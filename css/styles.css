@@ -5,6 +5,7 @@
 @import "visit.css";
 @import "cards.css";
 
+/*home/index specific*/
 .index-photo {
   display: block;
   margin-left: auto;
@@ -25,7 +26,9 @@
   font-weight: 450;
   font-size: 40px;
 }
+/*home/index specific end*/
 
+/*text specifics*/
 .slogan {
   font-size: 25px;
   font-style: italic;
@@ -34,11 +37,22 @@
   animation: wobble-hor-bottom 0.8s both;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.text-box {
+  margin: auto;
+  width: 65%;
 }
 
+.text-center {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.text-box-header {
+  font-size: 3em;
+}
+/*text specifics end*/
+
+/*contact page specific*/
 .contact {
   display: flex;
   flex-direction: column;
@@ -59,7 +73,9 @@ iframe {
   padding-top: 22px;
   max-width: 100%;
 }
+/*contact page specific end*/
 
+/*image specifics for images with border radius*/
 .img-border {
   display: block;
   margin-left: auto;
@@ -67,26 +83,16 @@ iframe {
   border-radius: 40px;
   padding: 10px 20px;
 }
+/*image specifics for images with border radius end*/
 
-.text-box {
-  margin: auto;
-  width: 65%;
-}
-
-.text-center {
-  text-align: left;
-  font-size: 1.1rem;
-}
-
-.text-box-header {
-  font-size: 3em;
-}
-
+/*kids page image bottom left specific*/
 .kid-left-bot {
   border-radius: 250px;
   max-height: 350px;
 }
+/*kids page image bottom left specific end*/
 
+/*back to top*/
 .top {
   text-decoration: none;
   padding: 10px;
@@ -100,7 +106,9 @@ iframe {
   justify-content: center;
   padding: 10px;
 }
+/*back to top end*/
 
+/*slogan effect*/
 @keyframes wobble-hor-bottom {
   0%,
   100% {
@@ -135,7 +143,9 @@ iframe {
     transform: translateX(-6px) rotate(-1.2deg);
   }
 }
+/*slogan effect end*/
 
+/*media queries start*/
 @media (max-width: 767px) {
   .text-box {
     margin: auto;
@@ -159,3 +169,4 @@ iframe {
     display: none;
   }
 }
+/*media queries end*/

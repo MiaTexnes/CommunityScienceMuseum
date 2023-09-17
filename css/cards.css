@@ -60,6 +60,7 @@
   text-decoration: underline;
 }
 
+/*media queries start*/
 @media (max-width: 1275px) {
   .cards {
     max-width: 800px;
@@ -103,3 +104,4 @@
     transform: scale(1.1);
   }
 }
+/*media queries end*/

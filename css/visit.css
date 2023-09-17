@@ -59,6 +59,7 @@ th {
   font-size: 1.5rem;
 }
 
+/*media queries start*/
 @media screen and (min-width: 600px) {
   .visit-cards {
     grid-template-columns: 1fr 1fr;
@@ -78,3 +79,4 @@ th {
     grid-column: 2/3;
   }
 }
+/*media queries end*/

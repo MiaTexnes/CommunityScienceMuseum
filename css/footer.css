@@ -38,6 +38,7 @@ footer h3 {
   font-size: 35px;
 }
 
+/*media queries start*/
 @media screen and (min-width: 700px) {
   footer h3 {
     font-size: 20px;
@@ -49,3 +50,4 @@ footer h3 {
     font-size: 32px;
   }
 }
+/*media queries end*/

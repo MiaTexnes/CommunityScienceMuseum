@@ -61,7 +61,8 @@ header {
   display: block;
 }
 
-.indexlogo {
+/*header image animation start*/
+.headerlogo {
   -webkit-animation: bounce-in 2s ease 0s 1 normal;
   -moz-animation: bounce-in 2s ease 0s 1 normal;
   -ms-animation: bounce-in 2s ease 0s 1 normal;
@@ -105,7 +106,9 @@ header {
     transform: scale(1);
   }
 }
+/*header image animation end*/
 
+/*media queries start here*/
 @media screen and (min-width: 760px) {
   .navbar {
     display: flex;
@@ -146,3 +149,4 @@ header {
     padding: 25px 25px;
   }
 }
+/*media queries start here*/
