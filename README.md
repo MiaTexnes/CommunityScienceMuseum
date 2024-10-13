@@ -39,3 +39,27 @@ I wanted the site to be clean, fun and appealing to a big and eager to learn aud
 7. The site should consider WCAG principles, especially regarding hierarchy, navigation, and colour usage.
 8. The site should be responsive, attractive, and easy to use on various devices.
 9. The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   gh repo clone https://github.com/MiaTexnes/CommunityScienceMuseum
+
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Running
+    ```bash
+    npm run start
+    ```
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/mia-texnes-847b28bb/)
